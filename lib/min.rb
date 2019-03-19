@@ -15,5 +15,5 @@ def get_the_min(groceries)
     end
   end
   grocery_values.sort
-  grocery_values.first
+  return grocery_values.first
 end
