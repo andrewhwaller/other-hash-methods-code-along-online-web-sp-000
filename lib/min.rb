@@ -14,5 +14,5 @@ def get_the_min(groceries)
     food_group.each do |food| grocery_values << "#{food}"
     end
   end
-  grocery_values.sort
+  grocery_values.flatten.sort
 end
