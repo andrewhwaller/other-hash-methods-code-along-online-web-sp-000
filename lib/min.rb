@@ -9,6 +9,7 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  groceries.sort_by { |h| h }
-  groceries.first
+  grocery_values = groceries.values
+  grocery_values.sort_by { |h| h }
+  grocery_values.first
 end
