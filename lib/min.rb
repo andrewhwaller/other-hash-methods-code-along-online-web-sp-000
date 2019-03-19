@@ -14,5 +14,6 @@ def get_the_min(groceries)
     food_group.each do |food| grocery_values << food
     end
     grocery_values
+    grocery_values.min
   end
 end
