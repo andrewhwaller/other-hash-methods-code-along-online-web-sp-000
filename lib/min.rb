@@ -13,6 +13,6 @@ def get_the_min(groceries)
   groceries.each do |food_group|
     food_group.each do |food| grocery_values << food
     end
-    grocery_values.sort
+    grocery_values
   end
 end
