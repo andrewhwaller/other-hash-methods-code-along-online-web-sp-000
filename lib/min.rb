@@ -10,7 +10,7 @@ require 'pry'
 
 def get_the_min(groceries)
   grocery_values = []
-  groceries.each do |food_group| 
+  groceries.each do |food_group|
     food_group.each do |food| grocery_values << food
     end
   end
